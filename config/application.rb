@@ -27,5 +27,9 @@ module SampleApp
 	  config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 	  # config/application.rb
 config.assets.initialize_on_precompile = false
+
+# application.rb
+
+    config.secret_key_base = 'blipgsapblun'
   end
 end
