@@ -28,8 +28,7 @@ module SampleApp
 	  # config/application.rb
 config.assets.initialize_on_precompile = false
 
-#secret key 
-config.secret_key_base = secret_token.rb
+
 
   end
 end
