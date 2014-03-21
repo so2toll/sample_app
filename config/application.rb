@@ -27,7 +27,9 @@ module SampleApp
 	  config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 	  # config/application.rb
 config.assets.initialize_on_precompile = false
-
+config.secret_token = '3613594cc3054dcada0a0ae4b427493fa7e3459e58dbdf81a960eed90bec56ed71984c497e04abe4
+0a3a5e3805a32b1df375831f32b1fe914a57f712bc7366a9
+'
 
   end
 end
